@@ -4,7 +4,6 @@ import Hero from '@/components/hero';
 export default function Home() {
   return (
     <div>
-      Home Page
       <Hero imgData={homeImg} imgAlt="home page" title="Professional Cloud Hosting" />
     </div>
   );
