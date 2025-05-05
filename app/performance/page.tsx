@@ -1,11 +1,11 @@
-import Image from 'next/image';
+import Hero from '@/components/hero';
 import performanceImg from '@/public/performance.jpg';
 
-export default function Home() {
+export default function PerformancePage() {
   return (
     <div>
       Performance Page
-      <Image alt="performance" src={performanceImg} />
+      <Hero imgData={performanceImg} imgAlt="performance page" title="Blazing fast performance" />
     </div>
   );
 }
